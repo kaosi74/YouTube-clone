@@ -1,0 +1,60 @@
+body {
+    background-color: black;    
+}
+
+p {
+    margin-top: 39px;
+    margin-left: -78px;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-family: sans-serif;
+    font-weight: none;
+}
+
+.ban {
+    border-style: dashed;
+    text-align: center;
+    height: 429px;
+    width: 455px;
+    font-size: 19px;
+    color: white;
+    margin-left: 430px;
+    margin-top: 86px;
+    border-style: solid;
+    border-color: green;
+    border-top-color: aqua;
+    border-left-color: chartreuse;
+    border-right-color: gold;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.sub {
+    display: block;
+    padding: 10px 12px;
+    background-color: red;
+    color: white;
+    margin-left: 85px;
+    margin-top: 43px;
+    margin-bottom: -13px;
+    border-style: none;
+    border-radius: 6px;
+}
+
+.sub:hover {
+    background-color: lightblue;
+    cursor: grab;
+}
+
+.for {
+    font-size: small;
+    font-weight: 100;
+    color: white;
+    margin-left: 247px;
+}
+
+.for:hover {
+    text-decoration: underline;
+    color: greenyellow;
+    cursor: grabbing;
+}

@@ -1,0 +1,110 @@
+form {
+    width: 300px;
+}
+
+input {
+    width: 100%;
+}
+
+textarea {
+    resize: vertical;
+    max-height: 100px;
+}
+
+input,
+textarea {
+    outline: none;
+    border: 1px solid #ddd;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: o o 4px rgba(255, 0, 0, 0.5);
+    border: 1px solid rgba(255, 0, 0, 0.5);
+}
+
+::placeholder {
+    color: red;
+    opacity: 1;
+}
+
+
+
+/*body {
+    background-color:  grey;
+}
+
+.contain{
+    min-width: 300px;
+}
+
+.centre {
+    height: 354px;
+    width: 455px;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+    margin-left: 430px;
+    margin-top: 86px;
+    border-style: solid;
+    border-color: black;
+    background-color: lightblue;
+    border-radius: 10px;
+}
+
+.hit {
+    margin-top: 34px;
+    margin-bottom: -15px;
+    margin-left: -75px;
+    font-size: 16px;
+}
+
+.hitt {
+    font-size: 16px;
+    margin-top: 34px;
+    margin-bottom: -16px;
+    margin-left: -105px;
+}
+
+.name-bar {
+    border-radius: 3px;
+    border-style: none;
+    padding-bottom: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.pass {
+    display: inline-block;
+    font-size: 12px;
+    text-decoration: underline;
+    margin-left: 234px;
+    margin-top: 0px;
+}
+
+.pass:hover {
+    color: green;
+    cursor: pointer;
+}
+
+.button {
+    display: block;
+    background-color: aqua;
+    color: white;
+    font-size: medium;
+    border-style: none;
+    border-radius: 6px;
+    margin-top: 34px;
+    margin-left: 94px;
+    padding: 7px 19px;
+    cursor: grab;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+
+
+.button:hover {
+    transition: 3s;
+    background-color: rgb(80, 10, 245);
+    opacity: 0.9;
+    transform: rotateY(240deg)
+}*/
